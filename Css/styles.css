@@ -44,10 +44,8 @@ p {
   justify-content: center;
 }
 
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
+.navigation-links a {
+  margin: 20px;
 }
 
 .button-link {
@@ -63,11 +61,13 @@ p {
 .contact-link {
   border-radius: 4px;
   padding: 20px 15px;
+  padding-right: 10px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  border: 1px solid var(--primary-color)
 }
 
 .about-link {
@@ -75,10 +75,11 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: white;
-  box-shadow: var(--box-shadow);
   color: var(--primary-color);
+  background: white;
+  border: 1px solid var(--primary-color);
 }
+
 
 .homepage-link {
   color: var(--primary-color);
@@ -109,3 +110,32 @@ p {
 .mb-5 {
   margin-bottom: 3rem !important;
 }
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;}
+
+  @media(max-width: 900px) {
+    h1{
+        font-size: 44px;
+        line-height: 2;
+    }
+    h2{
+        font-size: 24px;
+    }
+    .hero{ 
+        
+        padding: 80px 20px;
+      }
+      .email-link {
+        font-size: 20px;
+      }
+
+    }
+
+  
